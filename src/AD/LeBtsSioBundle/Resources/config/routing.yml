@@ -1,0 +1,16 @@
+ad_le_bts_sio_homepage:
+    path:     /
+    defaults: { _controller: ADLeBtsSioBundle:Default:index }
+    
+ad_le_bts_sio_presentation:
+    path:     /presentation
+    defaults: { _controller: ADLeBtsSioBundle:Default:presentation }
+    
+# src/Blogger/BlogBundle/Resources/config/routing.yml
+BloggerBlogBundle_homepage:
+    pattern:  /
+    defaults: { _controller: BloggerBlogBundle:Page:index }
+    requirements:
+        _method:  GET
+        
+

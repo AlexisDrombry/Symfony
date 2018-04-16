@@ -1,0 +1,23 @@
+{% extends 'ADLeBtsSioBundle:default:layout.html.twig' %}
+
+{% block navigation %}
+                        <nav>
+                            <ul class="navigation">
+                                <li><a href="#">Accueil</a></li>
+                                <li><a href="#">A propos</a></li>
+                                <li><a href="#">Infos</a></li>
+                            </ul>
+                        </nav>
+{% endblock %}
+                    
+{% block blog_title %}<a href="#">Présentation du BTS SIO</a>{% endblock %} 
+
+{% block blog_tagline %}<a href="#">Par Alexis DROMBRY sur Symfony28</a>{% endblock %}
+
+{% block body %}Voici le contenu de la page venant de la page config{% endblock %}
+ 
+ {% block sidebar %}Voici la sidebar vanant de la page Config{% endblock %}
+ 
+ {% block footer %}
+    Alexis DROMBRY 2017 - BTS SIO 2 Baudimont St Charles Arras <a href="https://github.com/alexisdrombry">Git Hub</a>
+ {% endblock %}

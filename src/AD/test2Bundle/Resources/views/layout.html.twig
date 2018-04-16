@@ -1,0 +1,16 @@
+{# empty Twig template #}
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>{% block titre %} Premier TP Symfony {% endblock %} </title>
+    </head>
+    <body>
+        <p> {% block entete %}Affichage{% endblock %} </p>
+        <p> {% block contenu %}{% endblock %}</p> 
+        
+        <footer>
+            <p>{% block pied %} Copyright 2017-2018 {% endblock %} </p>
+        </footer>
+       
+    </body>
+</html>

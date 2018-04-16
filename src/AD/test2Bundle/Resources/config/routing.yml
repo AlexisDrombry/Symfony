@@ -1,0 +1,8 @@
+a_dtest2_homepage:
+    path:     /Tp1.1
+    defaults: { _controller: ADtest2Bundle:Default:index }
+    
+a_dtest2_homepage:
+    path:     /Tp1.2
+    defaults: { _controller: ADtest2Bundle:Default:index2 }
+    
